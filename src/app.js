@@ -1,15 +1,10 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import HomeComponent from "./components/HomeComponent";
 
 import "normalize.css/normalize.css";
 import "./styles/styles.scss";
 
-const MyApp = () => (
-  <div>
-    <HomeComponent />
-  </div>
-);
+const MyApp = () => <p>Hello Rohit!</p>
 
 ReactDOM.render(<MyApp />, document.getElementById("app"));
 
